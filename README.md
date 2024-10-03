@@ -13,13 +13,13 @@ OPERACIÓNES CRUD EN DJANGO
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/royer2001/django-crud-tt.git
    ```
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd nombre_del_proyecto
+   cd django-crud-tt
    ```
 
 3. Crea un entorno virtual:
@@ -47,16 +47,6 @@ OPERACIÓNES CRUD EN DJANGO
    ```bash
    pip install -r requirements.txt
    ```
-
-## Configuración
-
-1. Copia el archivo de configuración de ejemplo:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Edita el archivo `.env` y proporciona las configuraciones necesarias (como la base de datos, claves secretas, etc.).
 
 ## Ejecución del Proyecto
 
