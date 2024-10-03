@@ -1,4 +1,4 @@
-# Nombre del Proyecto Django
+# OPERACIÓNES CRUD EN DJANGO
 
 OPERACIÓNES CRUD EN DJANGO
 
