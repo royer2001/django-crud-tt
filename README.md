@@ -1,4 +1,3 @@
-```markdown
 # Nombre del Proyecto Django
 
 OPERACIÓNES CRUD EN DJANGO
@@ -76,4 +75,3 @@ Si deseas contribuir, por favor abre un issue o envía un pull request.
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-```
