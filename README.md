@@ -6,7 +6,7 @@ OPERACIONES CRUD EN DJANGO
 
 - Python 3.x
 - Django 3.x o superior
-- Otras dependencias necesarias (lista aquí)
+- Django REST Framework
 
 ## Instalación
 
@@ -58,10 +58,16 @@ python manage.py runserver
 
 Visita `http://127.0.0.1:8000/` en tu navegador.
 
-## Contribución
+## Endpoints
 
-Si deseas contribuir, por favor abre un issue o envía un pull request.
+El proyecto cuenta con los siguientes Endpoints para realizar alguna operación CRUD
 
-## Licencia
+`HTTP GET: /api/products/` --> LISTAR TODOS LOS REGISTROS
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+`HTTP GET: /api/products/{id}/` --> OBTENER UN REGISTRO PASANDO EL ID
+
+`HTTP POST: /api/products/` --> INGRESAR UN NUEVO REGISTRO
+
+`HTTP PUT: /api/products/{id}/` --> MODIFICAR UN REGISTRO EXISTETE PASANDO EL ID
+
+`HTTP DELETE: /api/products/{id}/` --> ELIMINAR UN REGISTRO PASANDO EL ID
